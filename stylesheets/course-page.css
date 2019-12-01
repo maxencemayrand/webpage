@@ -31,6 +31,11 @@ p {
   margin: 0 0 0 20px;
 }
 
+.item {
+  margin: 0 0 0 90px;
+  white-space: nowrap;
+}
+
 a {
   color: #2e8ab8; /*#39c*/
   text-decoration: none;
@@ -38,4 +43,18 @@ a {
 
 a:hover {
   color: #069;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.title {
+  font-weight: bold;
+  flex: 0 0 70px;
+  margin-left: 20px;
+}
+
+.content {
+  flex: 1px;
 }

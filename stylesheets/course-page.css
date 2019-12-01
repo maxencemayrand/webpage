@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+
+body {
+  padding:10px;
+  font:16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#494949;
+  font-weight:300;
+}
+
+h1 {
+  color: #393939;
+  font-size:28px;
+  text-align: center;
+  margin:0 0 0px;
+  line-height:1.1;
+}
+
+h2, h3, h4, h5, h6 {
+  color: #494949;
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-size: medium;
+  margin: 0 0 0 20px;
+  display: inline-block;
+  width: 70px;
+}
+
+p {
+  margin: 0 0 0 20px;
+}
+
+a {
+  color: #2e8ab8; /*#39c*/
+  text-decoration: none;
+}
+
+a:hover {
+  color: #069;
+}

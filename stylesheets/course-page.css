@@ -19,7 +19,7 @@ h1 {
 
 h2, h3, h4, h5, h6 {
   color: #494949;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 
 h3 {
@@ -30,7 +30,7 @@ h3 {
 }
 
 p {
-  margin: 10px 0 0 20px;
+  margin: 5px 0 0 20px;
 }
 
 .item {
@@ -39,7 +39,7 @@ p {
 }
 
 a {
-  color: #2e8ab8; /*#39c*/
+  color: #2e8ab8;
   text-decoration: none;
 }
 

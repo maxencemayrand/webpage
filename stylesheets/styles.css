@@ -11,6 +11,21 @@ body {
   float: right;
 }
 
+.cvsummary {
+  display: flex;
+}
+.years{
+  margin-left: 20px;
+    flex: 0 0 90px;
+}
+.univ {
+  flex: 0 0 160px;
+  font-weight: bold;
+}
+.jobtitle {
+  flex: 0 0 190px;
+}
+
 .abstract {
   padding-top: .25em;
   padding-left: 1em;
@@ -58,6 +73,8 @@ h1 {
 
 h2 {
   color: #494949;
+  margin-top: 20px;
+  margin-bottom: 10px;
   /*color:#393939;*/
 }
 

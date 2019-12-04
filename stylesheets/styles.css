@@ -11,19 +11,18 @@ body {
   float: right;
 }
 
-.cvsummary {
-  display: flex;
+div.y{
+  display: inline-block;
+  width: 90px;
 }
-.years{
-  margin-left: 20px;
-    flex: 0 0 90px;
-}
-.univ {
-  flex: 0 0 160px;
+div.u {
   font-weight: bold;
+  display: inline-block;
+  width: 160px;
 }
-.jobtitle {
-  flex: 0 0 190px;
+div.j {
+  display: inline-block;
+  width: 190px;
 }
 
 .abstract {

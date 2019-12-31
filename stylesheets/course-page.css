@@ -4,14 +4,14 @@ body {
   padding:10px;
   padding-bottom: 12em;
   font:16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#494949;
-  font-weight:300;
+  /*color:#393939;*/
+  /*font-weight:500;*/
   max-width: 768px;
   margin: auto;
 }
 
 h1 {
-  color: #393939;
+  /*color: #393939;*/
   font-size:32px;
   text-align: center;
   margin:0 0 0px;
@@ -19,7 +19,7 @@ h1 {
 }
 
 h2, h3, h4, h5, h6 {
-  color: #494949;
+  /*color: #393939;*/
   margin-bottom: 5px;
 }
 
@@ -54,7 +54,7 @@ a:hover {
 
 .title {
   font-weight: bold;
-  flex: 0 0 124px;
+  flex: 0 0 130px;
   margin-left: 20px;
 }
 

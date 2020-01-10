@@ -25,9 +25,7 @@ h2, h3, h4, h5, h6 {
 
 h3 {
   font-size: medium;
-  margin: 0 0 0 20px;
-  display: inline-block;
-  width: 70px;
+  margin: 0 0 0 0px;
 }
 
 p {
@@ -46,6 +44,10 @@ a {
 
 a:hover {
   color: #069;
+}
+
+h2.a {
+  color: black;
 }
 
 .wrapper {

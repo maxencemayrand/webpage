@@ -78,7 +78,7 @@ h2.a {
 
 .title {
   font-weight: bold;
-  flex: 0 0 142px;
+  flex: 0 0 120px;
   margin-left: 20px;
 }
 
@@ -114,4 +114,7 @@ h2.a {
     display: none;
   }
 
+  .title {
+    flex: 0 0 100px;
+  }
 }

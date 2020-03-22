@@ -1,17 +1,32 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
-  padding:10px;
-  padding-bottom: 12em;
+  padding: 20px;
   font:16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /*color:#393939;*/
-  /*font-weight:500;*/
-  max-width: 768px;
-  margin: auto;
+}
+
+.fixedleftmenu {
+  width: 1050px;
+  /*margin: 0 auto;*/
+}
+
+.topmobile {
+  display: none;
+}
+
+header {
+  width:240px;
+  float:left;
+  position:fixed;
+}
+
+section {
+  width:700px;
+  float:right;
+  padding-bottom: 20em;
 }
 
 h1 {
-  /*color: #393939;*/
   font-size:32px;
   text-align: center;
   margin:0 0 0px;
@@ -19,13 +34,16 @@ h1 {
 }
 
 h2, h3, h4, h5, h6 {
-  /*color: #393939;*/
   margin-bottom: 5px;
 }
 
-h3 {
+header h2 {
+  margin-top: 4em;
+}
+
+header h3 {
   font-size: medium;
-  margin: 0 0 0 0px;
+  margin: 0 0 5px 0px;
 }
 
 p {
@@ -46,6 +64,10 @@ a:hover {
   color: #069;
 }
 
+header a {
+  color: black;
+}
+
 h2.a {
   color: black;
 }
@@ -62,4 +84,34 @@ h2.a {
 
 .content {
   flex: 1px;
+}
+
+@media print, screen and (max-width: 1100px) {
+  div.fixedleftmenu {
+    width: auto;
+    margin: 0;
+  }
+
+  div.topmobile {
+    display: block;
+  }
+
+  body {
+    padding: 0;
+  }
+
+  header, section {
+    float: none;
+    position: static;
+    width: auto;
+  }
+
+  header h2 {
+    margin-top: 5px;
+  }
+  
+  section h1 {
+    display: none;
+  }
+
 }

@@ -1,1 +1,1 @@
-rsync -av -e ssh --exclude='.*' . mayrand@math.toronto.edu:~/www-data
+rsync -av -e ssh --exclude '.*' --exclude 'publish.sh' . mayrand@math.toronto.edu:~/www-data

@@ -5,13 +5,53 @@ body {
   font:16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.fixedleftmenu {
-  width: 1050px;
-  /*margin: 0 auto;*/
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #002A5C; /* #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 26px;
 }
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+}
+
+.sidenav h1 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #2e8ab8;
+}
+
+/* Style page content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidebar */
+  padding: 0px 20px;
+}
+
 
 .topmobile {
   display: none;
+}
+
+.topmobile h3 {
+  padding: 0;
+  margin: 0;
+  margin-left: 10px;
 }
 
 header {
@@ -86,10 +126,18 @@ h2.a {
   flex: 1px;
 }
 
-@media print, screen and (max-width: 1100px) {
-  div.fixedleftmenu {
-    width: auto;
-    margin: 0;
+@media print, screen and (max-width: 800px) {
+
+  .sidenav {
+    display: none;
+  }
+
+  .main {
+    margin-left: 0;
+  }
+
+  .main h1 {
+    display: none;
   }
 
   div.topmobile {
